@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "KountAnalyticsPackage",
+        "repositoryURL": "https://github.com/VamsiKrishna1805/example-kount-package",
+        "state": {
+          "branch": null,
+          "revision": "71ddcd4a3bb75b2161b0ee823226aeb5e35b2a04",
+          "version": "1.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
