@@ -21,13 +21,17 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "ThirdPartyPackage",
-            dependencies: []),
+            dependencies: ["KountAnalyticsPackage"]),
         .testTarget(
             name: "ThirdPartyPackageTests",
             dependencies: ["ThirdPartyPackage"]),
+//        .binaryTarget(name: "KountDataCollector", path: "./Sources/KountDataCollector.xcframework"),
     ]
 )
 
 //.binaryTarget(name: "example-kount-package",
 //              url: "",
+//              checksum: "244633b5e212a0d8fe982fa181375c304cff056cfd793643ae04dd587fa4c2b9"),
+//.binaryTarget(name: "KounDataCollector",
+//              url: "https://github.com/VamsiKrishna1805/example-kount-package",
 //              checksum: "244633b5e212a0d8fe982fa181375c304cff056cfd793643ae04dd587fa4c2b9"),
