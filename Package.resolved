@@ -2,12 +2,12 @@
   "object": {
     "pins": [
       {
-        "package": "KountAnalyticsPackage",
-        "repositoryURL": "https://github.com/VamsiKrishna1805/example-kount-package",
+        "package": "KountDataCollectorPackage",
+        "repositoryURL": "https://github.com/Kount/kount-ios-swift-package",
         "state": {
           "branch": null,
-          "revision": "71ddcd4a3bb75b2161b0ee823226aeb5e35b2a04",
-          "version": "1.0.3"
+          "revision": "ff437e2e4969d45d3aa92b9e28975b2fb64c1c64",
+          "version": "1.0.0"
         }
       }
     ]
